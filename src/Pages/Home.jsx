@@ -16,7 +16,7 @@ const Home = () => {
    {/* Pagination */}
 
    const [currentPage , setCurrentPage] = useState(1)
-   const tasksPerPage = 2
+   const tasksPerPage = 5
 
    const indexOfLastTask = currentPage * tasksPerPage
    const indexOfFirstTask = indexOfLastTask - tasksPerPage

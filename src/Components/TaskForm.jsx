@@ -88,9 +88,9 @@ const TaskForm = ({mode, initialData}) => {
         </div>
         <div className='space-x-3'>
         <input type="radio" name="status" id="in-progress" value="In-Progress" 
-        checked = {formData.status === "In-Progess"}
+        checked = {formData.status === "In-Progress"}
         onChange={handleChange}/>
-        <label htmlFor="in-progress">In Progess</label>
+        <label htmlFor="in-progress">In-Progess</label>
         </div>
 
 
